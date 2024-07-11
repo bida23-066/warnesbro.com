@@ -1,0 +1,129 @@
+Slide 1: Title Slide
+Title: Warner Bros. Home
+Subtitle: Overview of the Website Design and Features
+Your Name
+Date
+ 
+
+Slide 2: Introduction
+Overview: Brief introduction to the Warner Bros. Home website.
+Purpose: To showcase the main elements and functionalities of the website.
+Key Features: Video background, navigation menu, content carousel, about us section, and social media sidebar.
+
+Slide 3: HTML Structure
+Explanation: The basic HTML structure of the website.
+Doctype Declaration: <!DOCTYPE html>
+HTML Tags: <html>, <head>, <body>
+Metadata: <meta charset="UTF-8">, <meta name="viewport" content="width=device-width, initial-scale=1.0">
+Title: <title>Warner Bros. Home</title>
+Slide 4: Head Section
+
+CSS Links:
+styles.css: Custom styles.
+Bootstrap CSS: https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
+Font Awesome: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
+Purpose: Integrating Bootstrap for responsive design and Font Awesome for icons.
+
+
+Slide 5: Video Background
+Code Snippet:
+html
+Copy code
+<div class="video-background">
+    <video autoplay muted loop id="background-video">
+        <source src="videos/Warner Bros. Pictures-Warner Animation Group (2021).mp4" type="video/mp4">
+    </video>
+</div>
+Explanation: A full-screen video background to create an immersive experience.
+Attributes: autoplay, muted, loop
+
+
+Slide 6: Navigation Menu
+Code Snippet:
+html
+Copy code
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="tvshows.html">TV Shows</a></li>
+        <li><a href="games&apps.html">Games & Apps</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+</nav>
+Explanation: A simple navigation menu for easy access to different sections.
+
+
+Slide 7: Content Section
+Heading: <h1>Welcome to Warner Bros.</h1>
+Carousel: Dynamic content showcasing movies.
+Bootstrap Carousel: Responsive, interactive carousel for showcasing featured movies.
+About Us Section: Information about Warner Bros.
+html
+Copy code
+<div class="about-us">
+    <h2>About Us</h2>
+    <p>Warner Bros., established in 1923 by the Warner brothers...</p>
+</div>
+
+
+Slide 8: Carousel Details
+Initialization: Using jQuery to populate the carousel dynamically.
+Carousel Indicators: ol.carousel-indicators
+Carousel Items: div.carousel-inner
+JavaScript Code:
+javascript
+Copy code
+$(document).ready(function(){
+    // Define movie data array
+    var movies = [
+        // Movie data objects
+    ];
+    // Populate carousel with movie content
+
+
+
+});
+Slide 9: Sidebar with Social Icons
+Code Snippet:
+html
+Copy code
+<div class="sidebar">
+    <ul class="social-icons">
+        <li><a href="https://web.facebook.com/warnerbrosent/"><img src="IMAGES/fbicon.jpeg" alt="Facebook"></a></li>
+        <li><a href="https://x.com/Warnerbros/"><img src="IMAGES/x.png" alt="Twitter"></a></li>
+        <li><a href="https://www.instagram.com/warnerbrosentertainment/"><img src="IMAGES/insta.jpeg" alt="Instagram"></a></li>
+    </ul>
+</div>
+Explanation: Sidebar for social media links to increase
+ user engagement.
+
+
+Slide 10: Conclusion
+
+Summary: Summary: Warner Bros. Home Website Presentation
+Overview
+This presentation provides an in-depth look at the Warner Bros. Home website, focusing on its structure, design, and key features.
+
+HTML Structure
+The website's foundation is built with HTML5, starting with the doctype declaration and basic HTML tags. Essential metadata ensures proper encoding and responsive design.
+
+Head Section
+The head section links to external stylesheets for custom styling, Bootstrap for responsive design, and Font Awesome for icons, enhancing the visual and functional aspects of the site.
+
+Video Background
+A full-screen video background creates an immersive experience for visitors. The video is set to autoplay, mute, and loop for continuous playback.
+
+Navigation Menu
+A simple, intuitive navigation menu provides easy access to different sections of the site, including Home, Movies, TV Shows, Games & Apps, Collections, and Feedback.
+
+Content Section
+The content section welcomes visitors with a heading and features a Bootstrap carousel showcasing various movies. The About Us section offers a brief history and overview of Warner Bros., highlighting its significant contributions to the entertainment industry.
+
+Carousel Details
+The carousel dynamically displays movie content using jQuery. Movie data is defined in an array and the carousel is populated with images, titles, and descriptions, offering an interactive user experience.
+
+Sidebar with Social Icons
+A sidebar with social media icons links to Warner Bros.'s social media profiles on Facebook, Twitter, and Instagram, encouraging user engagement and connectivity.
+Next Steps: Future improvements or additional features that could be added.

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections - Warner Bros.</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .collections-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .collection-item {
+            flex: 1 1 calc(33.333% - 40px); /* Adjusting for gap */
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .collection-item img {
+            width: 200px; /* Set the desired width */
+            height: 300px; /* Set the desired height */
+            object-fit: cover; /* Ensure the image covers the area without stretching */
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tvshows.html">TV Shows</a></li>
+            <li><a href="games&apps.html">Games & Apps</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Collections</h1>
+        <p>Check out our exclusive collections from Warner Bros.</p>
+        <div class="collections-grid">
+            <div class="collection-item">
+                <a href="https://www.warnerbros.com/movies">
+                    <img src="IMAGES/download.jpeg" alt="Godzilla x Kong">
+                    <h3>Godzilla x Kong</h3>
+                </a>
+            </div>
+            <div class="collection-item">
+                <a href="https://www.warnerbros.com/movies">
+                    <img src="IMAGES/images (1).jpeg" alt="The Matrix">
+                    <h3>The Matrix</h3>
+                </a>
+            </div>
+            <div class="collection-item">
+                <a href="https://www.warnerbros.com/tv">
+                    <img src="IMAGES/gameofthrones.jpg" alt="Game of Thrones">
+                    <h3>Game of Thrones</h3>
+                </a>
+            </div>
+            <div class="collection-item">
+                <a href="https://www.warnerbros.com/tv">
+                    <img src="IMAGES/blood of zeus.jpg" alt="Blood of Zeus">
+                    <h3>Blood of Zeus</h3>
+                </a>
+            </div>
+            <div class="collection-item">
+                <a href="https://www.warnerbros.com/games">
+                    <img src="IMAGES/God_of_War_Ragnarök_cover.jpg" alt="God of War Ragnarök cover">
+                    <h3>God of War Ragnarök cover</h3>
+                </a>
+            </div>
+            <div class="collection-item">
+                <a href="https://www.warnerbros.com/games">
+                    <img src="IMAGES/batmen.jpg" alt="Batmen Part 1">
+                    <h3>Batmen Part 1</h3>
+                </a>
+            </div>
+            <div class="collection-item">
+                <a href="https://www.warnerbros.com/apps">
+                    <img src="IMAGES/cartoon_network_app_1024x1024.png" alt="Cartoon Network">
+                    <h3>Cartoon Network</h3>
+                </a>
+            </div>
+            <div class="collection-item">
+                <a href="https://www.warnerbros.com/apps">
+                    <img src="IMAGES/wb.jpg" alt="WB Studio Tour">
+                    <h3>WB Studio Tour</h3>
+                </a>
+            </div>
+        </div>
+        <button onclick="location.href='index.html'" class="home-button">Back to Home</button>
+    </div>
+</body>
+</html>
+

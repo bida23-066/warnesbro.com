@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games & Apps - Warner Bros.</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .games-apps-flex {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .game-app {
+            flex: 1 1 calc(33.333% - 40px); /* Adjusting for gap */
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .game-app img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tvshows.html">TV Shows</a></li>
+            <li><a href="games&apps.html">Games & Apps</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Games & Apps</h1>
+        <p>Explore our exciting games and apps developed by Warner Bros.</p>
+        <div class="games-apps-flex">
+            <div class="game-app">
+                <a href="https://www.warnerbros.com/games">
+                    <img src="IMAGES/lego.jpeg" alt="Star Wars Lego">
+                    <h3>Star Wars Lego</h3>
+                </a>
+            </div>
+            <div class="game-app">
+                <a href="https://www.warnerbros.com/games">
+                    <img src="IMAGES/elder ring.jpeg" alt="Elder Ring">
+                    <h3>Elder Ring</h3>
+                </a>
+            </div>
+            <div class="game-app">
+                <a href="https://www.warnerbros.com/games">
+                    <img src="IMAGES/Assassins_Creed_brotherhood_cover.jpg" alt="Assassins Creed brotherhood">
+                    <h3>Assassins Creed brotherhood</h3>
+                </a>
+            </div>
+            <div class="game-app">
+                <a href="https://www.warnerbros.com/games">
+                    <img src="IMAGES/God_of_War_Ragnarök_cover.jpg" alt="God of war Ragnarok">
+                    <h3>God of war Ragnarok</h3>
+                </a>
+            </div>
+        </div>
+        <button onclick="location.href='index.html'" class="home-button">Back to Home</button>
+    </div>
+</body>
+</html>
+
+

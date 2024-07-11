@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warner Bros. Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #e0d509;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .container h1, .container h2 {
+            text-align: center;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #f1f1f1;
+            color: #333;
+        }
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+        button[type="submit"] {
+            background-color: #e0d509;
+            color: #121212;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button[type="submit"]:hover {
+            background-color: #c1b306;
+        }
+        .contact-info {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .contact-info ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+        .contact-info ul li {
+            margin-bottom: 10px;
+        }
+        .contact-info ul li i {
+            margin-right: 10px;
+            color: #e0d509;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tvshows.html">TV Shows</a></li>
+            <li><a href="games&apps.html">Games & Apps</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <!-- Feedback Form -->
+    <div class="container">
+        <h1>Feedback</h1>
+        <p>We would love to hear your feedback!</p>
+        <form action="submit_feedback.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+        
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <ul>
+                <li><i class="fab fa-whatsapp"></i> WhatsApp: +123456789</li>
+                <li><i class="fas fa-phone"></i> Phone: +123456789</li>
+                <li><i class="far fa-envelope"></i> Email: warnersbro@gmail.com</li>
+                <li><i class="fas fa-map-marker-alt"></i> Michigan: 123 Street, Rozroz, USA</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+
+

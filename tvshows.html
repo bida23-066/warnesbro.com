@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Shows - Warner Bros.</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .tv-shows-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .tv-show {
+            flex: 1 1 calc(33.333% - 40px); /* Adjusting for gap */
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .tv-show img {
+            width: 200px; /* Set the desired width */
+            height: 300px; /* Set the desired height */
+            object-fit: cover; /* Ensure the image covers the area without stretching */
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tvshows.html">TV Shows</a></li>
+            <li><a href="games&apps.html">Games & Apps</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>TV Shows</h1>
+        <p>Discover our popular TV shows produced by Warner Bros.</p>
+        <div class="tv-shows-grid">
+            <div class="tv-show">
+                <a href="https://www.warnerbros.com/tv">
+                    <img src="IMAGES/blood of zeus.jpg" alt="Blood of Zeus">
+                    <h3>Blood of Zeus</h3>
+                </a>
+            </div>
+            <div class="tv-show">
+                <a href="https://www.warnerbros.com/tv">
+                    <img src="IMAGES/bigbang.jpeg" alt="The Big Bang Theory">
+                    <h3>The Big Bang Theory</h3>
+                </a>
+            </div>
+            <div class="tv-show">
+                <a href="https://www.warnerbros.com/tv">
+                    <img src="IMAGES/gameofthrones.jpg" alt="Game of Thrones">
+                    <h3>Game of Thrones</h3>
+                </a>
+            </div>
+            <div class="tv-show">
+                <a href="https://www.warnerbros.com/tv">
+                    <img src="IMAGES/supernatural.jpeg" alt="Supernatural">
+                    <h3>Supernatural</h3>
+                </a>
+            </div>
+            <div class="tv-show">
+                <a href="https://www.warnerbros.com/tv">
+                    <img src="IMAGES/arrow.jpeg" alt="Arrow">
+                    <h3>Arrow</h3>
+                </a>
+            </div>
+            <div class="tv-show">
+                <a href="https://www.warnerbros.com/tv">
+                    <img src="IMAGES/flashseries.jpeg" alt="The Flash">
+                    <h3>The Flash</h3>
+                </a>
+            </div>
+            <div class="tv-show">
+                <a href="https://www.warnerbros.com/tv">
+                    <img src="IMAGES/supergirl.jpeg" alt="Supergirl">
+                    <h3>Supergirl</h3>
+                </a>
+            </div>
+            <div class="tv-show">
+                <a href="https://www.warnerbros.com/tv">
+                    <img src="IMAGES/friends.jpg" alt="Friends">
+                    <h3>Friends</h3>
+                </a>
+            </div>
+        </div>
+        <button onclick="location.href='index.html'" class="home-button">Back to Home</button>
+    </div>
+</body>
+</html>
